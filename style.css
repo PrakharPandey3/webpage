@@ -1,0 +1,48 @@
+body{
+    background-color: khaki;
+    border-style: double groove;
+    border-color: blue;
+    padding: 40px;
+}
+.h1{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: black;
+}
+
+.style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+a:link{
+    color: yellow;
+    font-style: italic;
+}
+a:visited{
+    color: purple;
+    font-weight: bold;
+}
+li{
+    font-size: 20px;
+    padding: 10px;
+}
+.style p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.a{
+    color: rgb(255, 0, 0);
+    font-size: 23px;
+}
+.style:hover p{
+    opacity: 1;
+}
+.style:hover img{
+    opacity: 0.33;
+}
